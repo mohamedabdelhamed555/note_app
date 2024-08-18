@@ -13,7 +13,6 @@ class CustomTextFeild extends StatelessWidget {
       cursorColor: KprimaryColor,
       decoration: InputDecoration(
           hintText: hint,
-          hintStyle: TextStyle(color: KprimaryColor),
           border: buildBorder(),
           enabledBorder: buildBorder(),
           focusedBorder: buildBorder(KprimaryColor)),
